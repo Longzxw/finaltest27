@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/huy_3.css">
+    <link rel="stylesheet" href="../assets/css/huy_2.css">
+    <link rel="stylesheet" href="../assets/css/huy.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="content" class="snap-content box-shadow">
+        <div class="relative">
+            <div id="navbarheader">
+                <nav class="navbar tkb-navbar navbar-default showsearch">
+                    <div class="w-100 top-nav">
+                        <a class="tkb-brand navbar-brand" href="/?opm=tbox.edp.header.logo"><img class="tkb-logo" src="https://static.tkbcdn.com/site/global/content-v2/img/ticketbox-logo-100.png?v1" alt="picture error"></a>
+                            <ul class="hidden-xs nav-location">
+                            <a class="nav-bar-item active" href="https://ticketbox.vn/?opm=tbox.edp.header.event">Events</a>
+                            <a class="nav-bar-item" href="https://ticketbox.vn/movies/">Movies</a>
+                            </ul>
+                        <div class="searcher">
+                            <span class="search-btn-m smooth-trans hidden color-white"><span class="ello-search smooth-trans"></span></span>
+                            <div class="left-border">
+                                <div class="input-group rounded search-form smooth-trans hid">
+                                    <span class="search-btn input-group-addon bg-white smooth-trans" data-search-url="/events">
+                                        <span><i class="fa fa-search"></i></span></span>
+                                    <input data-autocomplete="search" type="text" class="form-control" placeholder="Search Events">
+                                    <span class="btn-submit-m input-group-addon bg-white smooth-trans" data-search-url="/events" data-search-click="true"><span class="ello-right smooth-trans"></span></span>
+                                </div>
+                            </div>
+                            <div class="search-res smooth-trans relative hid" data-search-result="true" tabindex="2">
+                                <div class="autocomplete-suggestions"
+                                    style="position: absolute; display: none; z-index: 9999;"></div>
+                            </div>
+                        </div>
+
+
+                        <div id="top-nav-right" class="top-nav-right">
+                            <button type="button" data-menu-trigger="true"
+                                class="navbar-toggle cd-nav-trigger pull-right">
+                                <span></span>
+                            </button>
+                            <ul
+                                class="nav navbar-nav navbar-right nav-lang nav-lang-mobi pull-right hidden-xs hidden-sm">
+                                <li class="hidden-xs hidden-sm">
+                                    <div class="tkb-btn btn-create-e rounded tkb-bg-color center">
+                                        <span class="font-bold"><i class="fa fa-plus-circle"></i> Create event</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                                <li>
+                                    <a href="#goto_login">LogIn</a>
+                                </li>
+                                <li>
+                                    <a class="nav-bullet color-white">|</a>
+                                </li>
+                                <li>
+                                    <a href="#goto_login">SignUp</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <div class="w-100 top-nav second-top-nav" style="background-color: white;">
+                        <ul style="margin-left: 58px; margin-bottom: 0px; margin-top: 0px; line-height: 30px" class="hidden-xs nav-location" role="menu">
+                            <li class="active-under">
+                                <span class="nav-bar-item-under">Hot Events</span>
+                                <a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.livemusic&categories=8">Live Music</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.artcult&categories=9"> Art &amp; Culture</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.theater&categories=10">Theater &amp; Plays</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.nightlife&categories=11">Nightlife</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.outdoor&categories=12">Outdoor</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.conference&categories=2">Conference</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.courses&categories=4">Seminar/Courses</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.exhibitions&categories=3">Exhibitions</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.meetups&categories=5">Meetups</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.sports&categories=6">Sports</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.comm&categories=7">Community</a></li>
+                            <li><a class="nav-bar-item-under" href="https://ticketbox.vn/events?opm=tbox.edp.navbar.attractions&categories=13">Attractions</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <section class="">
+                <section class="banner bg-white margin-bottom-20 border-bottom-grey-dark">
+                    <div class="cover-photo" style="height: 519px; background-image: url(https://images.tkbcdn.com/1/1560/600/Upload/eventcover/2023/07/11/96B151.jpg);"></div>
+                    <div class="container">
+                        <div class="row">
+                            <!-- event's info summary -->
+                            <div class="event-info">
+                                <div class="event-name text-center">
+                                    <div class="col-sm-7 col-md-8">
+                                        <div class="calendar-image single-border mobile-invisible padding-left-0 padding-right-0 text-bold">
+                                            <p class="month">September</p>
+                                            <p class="date">02</p>
+                                            <p class="day">Saturday</p>
+                                        </div>
+                                        <div class="event-name-content padding-left-0 padding-right-0">
+                                            <div class="col-sm-12">
+                                                <h1 class="title grey-dark-color">D&amp;E WORLD TOUR FANCON - [DElight PARTY] IN HO CHI MINH</h1>
+                                            </div>
+                                            <div class="button-gr btn-count col-xs-12 col-sm-12 visible-xs">
+                                                <div id="shareBtn3" class="col-xs-6 btn-wr">
+                                                    <a class="btn-first fshare-button border-grey" target="blank"><i class="ello-facebook-squared"></i>Share to facebook</a>
+                                                </div>
+                                            <div class="dropdown col-xs-6 btn-wr ">
+                                                    <a class="follow-event btn-last add-calendar-button border-grey" style="color: #2DC275">
+                                                        <i class="ello-heart-empty" style="font-weight: bold"></i> Follow </a>
+                                                    <a class="followed-event btn-last add-calendar-button border-grey" style="color: #2DC275; display: none">
+                                                        <i class="ello-heart" style="font-weight: bold"></i>Followed</a>
+                                                </div>
+                                            </div>
+                                            <div class="button-gr btn-count col-xs-12 col-sm-12 visible-xs" style="margin-top: 0px; color: #606778">
+                                                <span class="followers-id">--</span> followers</div>
+                                            <div class="cnt-left col-xs-12 col-sm-12 padding-left-0 padding-right-0">
+                                                <div class="event-time col-sm-12 pd-hor-15">
+                                                    <div class="inline-bl">
+                                                        <p>Saturday, 02 September 2023 (06:00 PM - Until late)</p>
+                                                    </div>
+                                                </div>
+                                                <div class="event-venue border-top-grey col-sm-12 pd-hor-15">
+                                                    <p class="grey-dark-color text-bold text-indent txt-16">Nhà thi đấu Phú Thọ</p>
+                                                    <p class="grey-white-color note">1 Lữ Gia, Phường 15, Quận 11, Thành phố Hồ Chí Minh</p></div>
+                                                <a href="#booking" class="event-price border-top-grey col-sm-12 pd-hor-15 desktop-invisible page-scroll" style="display:block;">
+                                                    <p class="text-indent"><i class="ello-ticket icon grey-bright-color"></i>From
+                                                        <strong>2,000,000 VND</strong></p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="button-gr col-sm-5 col-md-4 pd-left-6 hidden-xs" banner-btn="banner-btn">
+                                        <a data-style="zoom-out" class="ladda-button text-center white-color text-bold table-cell button-lg ver-middle btn-booking" buttontype="buy-ticket" href="#buyticket"><span class="ladda-label">Book now</span><span class="ladda-spinner"></span></a>
+                                        <div class="col-sm-12 padding-left-0 padding-right-0 btn-count">
+                                            <div id="shareBtn" sharesocial="fbShare" class="col-sm-6 btn-wr">
+                                                <a class="btn-first fshare-button border-grey" target="blank">Share to facebook</a>
+                                            </div>
+                                            <div class="dropdown col-sm-6 btn-wr ">
+                                                <a class="follow-event btn-last add-calendar-button border-grey"style="color: #2DC275">Follow</a>
+                                                <a class="followed-event btn-last add-calendar-button border-grey"style="color: #2DC275; display: none">
+                                                    <i class="ello-heart" style="font-weight: bold"></i>Followed
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 padding-left-0 padding-right-0 btn-count" style="color: #606778">
+                                            <span class="followers-id">--</span> followers
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #Mobile Display Only-->
+                        <div class="col-xs-12 fixed desktop-invisible bg-white border-top-grey booking-bl padding-left-0 padding-right-0">
+                            <div class="col-xs-4 table-cell price-box ver-middle">
+                                <a href="#booking" class="page-scroll" target="blank">From <span class="text-bold">2,000,000 VND</span></a>
+                            </div>
+                            <div class="col-xs-8 table-cell book-box text-center ver-middle">
+                                <a buttontype="buy-ticket-ev-info" data-style="zoom-out" class="ladda-button white-color button-lg btn-booking btn-booking" target="blank"><span class="ladda-label">Book now</span><span class="ladda-spinner"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="addCalendar" class="modal fade add-calendar" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body pd-0">
+                                    <a href="/event/ical/87821" class="item border-top-grey col-xs-12 pd-hor-15">
+                                        <div class="table-cell text-center col-sm-7 col-xs-7 padding-right-0 padding-left-0">
+                                            <p class="margin-bottom-0"><i class="ello-ical mg-5"></i>iCalendar</p></div></a>
+                                    <div class="clearfix"></div>
+                                    <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=D%26E+WORLD+TOUR+FANCON+-+%5bDElight+PARTY%5d+IN+HO+CHI+MINH&amp;dates=20230902T110000Z/20230902T165900Z&amp;details=&amp;location=Nh%c3%a0+thi+%c4%91%e1%ba%a5u+Ph%c3%ba+Th%e1%bb%8d%2c+1+L%e1%bb%af+Gia%2c+Ph%c6%b0%e1%bb%9dng+15%2c+Qu%e1%ba%adn+11%2c+Th%c3%a0nh+ph%e1%bb%91+H%e1%bb%93+Ch%c3%ad+Minh&amp;trp=false&amp;sprop=TicketBox&amp;sprop=name:ticketbox.vn"class="item border-top-grey col-xs-12 pd-hor-15">
+                                        <div class="table-cell text-center col-sm-7 col-xs-7 padding-right-0 padding-left-0">
+                                            <p class="margin-bottom-0"><i class="ello-google-calendar mg-5"></i>GOOGLE Calendar</p>
+                                        </div>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                    <a href="/event/ical/87821" class="item border-top-grey col-xs-12 pd-hor-15">
+                                        <div class="table-cell text-center col-sm-7 col-xs-7 padding-right-0 padding-left-0">
+                                            <p class="margin-bottom-0"><i class="ello-outlook mg-5"></i>Outlook Calendar</p>
+                                        </div>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <a class="modal-footer bg-grey border-top-grey" style="display:block;">
+                                    <div data-dismiss="modal">Close</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mainContainer">
+                    <nav class="navbar navbar-default hidden-xs">
+                        <div class="container">
+                            <div class="collapse navbar-collapse pl-pr-0" id="bs-example-navbar-collapse-1">
+
+
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a class="page-scroll text-center" href=".intro" title="About">About</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll text-center" href=".booking" title="Ticket Information">Ticket Information</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll text-center" href=".organizer" title="Organizer">Organizer</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll text-center" href=".similarEvent" title="Recommended for you">Recommended for you</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="container left-bl pl-pr-0" style="min-height: 304px;">
+                        <div class="col-sm-12 col-md-8 pl-pr-0 specialBox">
+                            <section class="intro" id="intro">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 pl-pr-0">
+                                        <h3 class="title">About</h3>
+                                        <div class="col-xs-12 box detail-box">
+                                            <div class="really-height">
+                                                <p style="margin-left: 36pt; text-align: center">
+                                                    <strong>D&amp;E WORLD TOUR FANCON - [DElight PARTY] IN HO CHI MINH</strong></p>
+                                                <p style="margin-left: 36pt">
+                                                    <strong>“DElight Party”</strong>
+                                                    <span style="background-color: transparent; color: rgb(22, 40, 46); font-family: times new roman; font-size: 12pt">World Tour Fancon năm 2023 của </span><strong>Super Junior-D&amp;E </strong>
+                                                    <span style="background-color: transparent; color: rgb(22, 40, 46); font-family: times new roman; font-size: 12pt">(2 thành viên của nhóm </span><strong>Super Junior</strong>
+                                                    <span style="background-color: transparent; color: rgb(22, 40, 46); font-family: times new roman; font-size: 12pt">:</span><strong>Donghae</strong>
+                                                    <span style="background-color: transparent; color: rgb(22, 40, 46); font-family: times new roman; font-size: 12pt"> và </span><strong>Eunhyuk</strong>
+                                                    <span style="background-color: transparent; color: rgb(22, 40, 46); font-family: times new roman; font-size: 12pt">). Tour diễn đã đang và sẽ diễn ra tại nhiều quốc gia: Hàn Quốc, Đài Loan, Thái Lan, Indonesia, Malaysia,…</span></p>
+                                                <p style="margin-left: 36pt">
+                                                    <strong>“D&amp; E WORLD TOUR FANCON - [DElight PARTY]”</strong>
+                                                    <span style="background-color: transparent; color: rgb(22, 40, 46); font-family: times new roman; font-size: 12pt"> chính thức đổ bộ về </span><strong>Việt Nam</strong>
+                                                    <span style="background-color: transparent; color: rgb(22, 40, 46); font-family: times new roman; font-size: 12pt"> và sẽ diễn ra vào lúc 18h00 ngày 02/09/2023 tại</span><strong>Nhà thi đấu Phú Thọ</strong>
+                                                    <span style="background-color: transparent; color: rgb(22, 40, 46); font-family: times new roman; font-size: 12pt">, Số 1 Đường Lữ Gia, Phường 15, Quận 11, Thành phố Hồ Chí Minh</span></p>
+                                                <p style="margin-left: 36pt; text-align: center">
+                                                    <img src="https://static.tkbcdn.com/Upload/agenda/2023/07/13/B69392.jpg" style="height: 964px; width: 681px" alt="picture errorr."></p>
+                                                <p style="text-align: center"><img src="https://static.tkbcdn.com/Upload/agenda/2023/07/13/4D210B.jpg" style="height: 850px; width: 681px" alt="picture errorr." alt="picture errorr."></p>
+                                                <p style="text-align: center"><img src="https://static.tkbcdn.com/Upload/agenda/2023/07/13/527AD6.jpg" style="height: 850px; width: 681px" alt="picture errorr." alt="picture errorr."></p>
+                                                <p style="margin-left: .5in"><strong>Điều khoản và điều kiện</strong></p>
+                                                <p style="margin-left: .5in">* Vé concert chỉ có thể được mua thông qua các nền tảng củaTicketbox (trang web và ứng dụng Ticketbox)</p>
+                                                <p style="margin-left: .5in">* 1 (MỘT) vé chỉ có hiệu lực cho 1 (MỘT) người sở hữu vé cho 1 (MỘT) lần vào bên trong khu vực diễn ra sự kiện.</p>
+                                                <p style="margin-left: .5in">* Mỗi giao dịch giới hạn tối đa 4 vé.</p>
+                                                <p style="margin-left: .5in">* Sự kiện không dành cho trẻ em dưới 5 tuổi</p>
+                                                <p style="margin-left: .5in">* Trẻ em dưới 7 tuổi và phụ nữ mang thai không được vào khu vực Standing</p>
+                                                <p style="margin-left: .5in">* Vé KHÔNG được hoàn trả, đổi ngày hoặc chỉnh sửa trong bất kỳ trường hợp nào.</p>
+                                                <p style="margin-left: .5in">* Vui lòng không mua vé từ bất kỳ nguồn nào khác để tránh trường hợp vé giả hoặc lừa đảo, BTC không chịu trách nhiệm giải quyết các trường hợp này.</p>
+                                                <p style="margin-left: .5in">* Khán giả có trách nhiệm tự bảo quản mã vé điện tử của mình. BTC từ chối giải quyết trường hợp có nhiều hơn 1 người check-in cùng 1 mã vé. Theo quy định, BTC sẽ chấp nhận cho phép người đầu tiên check-in mã vé bị trùng được tham dự sự kiện.</p>
+                                                <p style="margin-left: .5in">* TẤT CẢ Người Có Vé đều phải xuất trình vé điện tử hợp lệ để xác nhận đổi vé (vé cứng + vòng vé) trước khi vào địa điểm diễn ra sự kiện.</p>
+                                                <p style="margin-left: .5in">* Ban quản lý và nhân viên có quyền từ chối cho vào và/hoặc mời ra ngoài đối với bất kỳ cá nhân nào, vào bất kỳ lúc nào nếu người đó vi phạm bất kỳ Điều khoản &amp; Quy định nào của ban tổ chức.</p>
+                                                <p style="margin-left: 18pt; text-align: center"><strong>* Trong mọi trường hợp, quyết định của Ban tổ chức là quyết định cuối cùng</strong></p>
+                                                <p>&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="clearfix" style="text-align: center;"><i><button onclick="more_look()" style="border: none; background-color: none;">Xem thêm</button></i></div>
+                                </div>
+                            </section>
+                            <i class="fi-ticket"></i>
+                            <section class="ticket booking" id="booking">
+                                <div class="row margin-bottom-0">
+                                    <div class="col-sm-12 pl-pr-0">
+                                        <h3 class="title">Ticket Information</h3>
+                                        <div class="panel-group margin-bottom-0" id="accordion">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <div class="panel-title">
+                                                        <div class="row arrow--sec blur-white" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                                            <div class="col-sm-7">
+                                                                <p class="tic__name" data-ot="VIP SEATING" style="overflow-wrap: break-word;">VIP SEATING
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-sm-5">
+                                                                <p class="tic__price"><strong>4,800,000 VND</strong><br>
+                                                                    <span class="tic__price--sub font-085 uppercase closed red">Sold out</span>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapse1" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-3 " style="display: none;">
+                                                                <img class="tic__pic" src=""></div>
+                                                            <div class="col-sm-12">
+                                                                <p class="tic__des">Sound check – Random 220<br>Lanyard<br>Signed Poster – Random 20<br>Photocard<br>Goodbye Session (Priority to enter the hall first)<br>Official Poster</p></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <div class="panel-title">
+                                                        <div class="row arrow--sec blur-white" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                                            <div class="col-sm-7">
+                                                                <p class="tic__name" data-ot="VIP STANDING A" style="overflow-wrap: break-word;"> VIP STANDING A</p></div>
+                                                            <div class="col-sm-5">
+                                                                <span class="arrow ello-up-open visible-xs invisible grey-bright-color"></span>
+                                                                <p class="tic__price"><strong>4,200,000 VND</strong><br></p></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapse2" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-3 " style="display: none;"><img class="tic__pic"></div>
+                                                            <div class="col-sm-12"><p class="tic__des">(All VIP Standing A+B+C):<br>Sound check – Random 200<br>Lanyard<br>Signed Poster – Random 20<br>Photocard<br>Goodbye Session – Random 400<br>Official Poster</p></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <div class="panel-title">
+                                                        <div class="row arrow--sec blur-white" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                                            <div class="col-sm-7">
+                                                                <p class="tic__name" data-ot="VIP STANDING B" style="overflow-wrap: break-word;">VIP STANDING B</p>
+                                                            </div>
+                                                            <div class="col-sm-5">
+                                                                <span class="arrow ello-up-open visible-xs invisible grey-bright-color"></span>
+                                                                <p class="tic__price"><strong>4,200,000 VND</strong><br></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapse3" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <p class="tic__des">(All VIP Standing A+B+C):<br>Sound check – Random 200<br>Lanyard<br>Signed Poster – Random 20<br>Photocard<br>Goodbye Session – Random 400<br>Official Poster</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <div class="panel-title">
+                                                        <div class="row arrow--sec blur-white" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                                            <div class="col-sm-7">
+                                                                <p class="tic__name" data-ot="VIP STANDING C" style="overflow-wrap: break-word;"> VIP STANDING C</p>
+                                                            </div>
+                                                            <div class="col-sm-5">
+                                                                <span class="arrow ello-up-open visible-xs invisible grey-bright-color"></span>
+                                                                <p class="tic__price"><strong>4,200,000 VND</strong><br></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapse4" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-3 " style="display: none;">
+                                                                <img class="tic__pic">
+                                                            </div>
+                                                            <div class="col-sm-12">
+                                                                <p class="tic__des">(All VIP Standing A+B+C):<br>Sound check – Random 200<br>Lanyard<br>Signed Poster – Random 20<br>Photocard<br>Goodbye Session – Random 400<br>Official Poster</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <div class="panel-title">
+                                                        <div class="row arrow--sec blur-white" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                                            <div class="col-sm-7">
+                                                                <p class="tic__name" data-ot="ZONE D" style="overflow-wrap: break-word;">ZONE D</p>
+                                                            </div>
+                                                            <div class="col-sm-5">
+                                                                <span class="arrow ello-up-open visible-xs invisible grey-bright-color"></span>
+                                                                <p class="tic__price"><strong>3,000,000 VND</strong><br></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapse5" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-3 " style="display: none;">
+                                                                <img class="tic__pic" src="">
+                                                            </div>
+                                                            <div class="col-sm-12">
+                                                                <p class="tic__des">Sound check – Random 50<br>Signed Poster – Random 10<br>Photocard<br>Official Poster</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <div class="panel-title">
+                                                        <div class="row arrow--sec blur-white" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                                                            <div class="col-sm-7">
+                                                                <p class="tic__name" data-ot="ZONE E" style="overflow-wrap: break-word;">ZONE E
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-sm-5">
+                                                                <span class="arrow ello-up-open visible-xs invisible grey-bright-color"></span>
+                                                                <p class="tic__price"><strong>2,000,000 VND</strong><br>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="collapse6" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <div class="row">
+                                                            <div class="col-sm-3 " style="display: none;">
+                                                                <img class="tic__pic" src="">
+                                                            </div>
+                                                            <div tic="detail" class="col-sm-12">
+                                                                <p class="tic__des">Sound check – Random 30<br>Official Poster</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="banner-center" style="display: block;">
+                                <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821" target="_blank" data-typebanner="Center Banner">
+                                    <img src="https://cdn02.ticketbox.vn/poster/cf2b5cde-2485-11ee-8e5e-0242ac110004" alt="picture eror" style="width: 100%">
+                                </a>
+                            </section>
+                            <section class="banner-center-mb" style="display: block;">
+                                <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821" target="_blank" data-typebanner="Center Banner">
+                                    <img src="https://cdn02.ticketbox.vn/poster/c36ca322-2485-11ee-8e5e-0242ac110004" alt="picture eror" style="width: 100%">
+                                </a>
+                            </section>
+                            <section class="organizer" id="organizer">
+                                <div class="row margin-bottom-0">
+                                    <div class="col-sm-12 pl-pr-0">
+                                        <h3 class="title">Organizer</h3>
+                                        <div class="col-xs-12">
+                                            <div class="really-height">
+                                                <div class="org-img">
+                                                    <img class="" src="https://static.tkbcdn.com/Upload/organizerlogo/2023/07/12/7660B6.jpg">
+                                                </div>
+                                                <div class="org-detail">
+                                                    <h2 class="text-uppercase title--sub">APPLEWOOD - JS MEDIA</h2>
+                                                    <p>APPLEWOOD là một công ty giải trí toàn cầu. Kể từ khi thành lập, công ty đã hợp tác với nhiều nghệ sĩ từ các công ty giải trí hàng đầu Hàn Quốc như SM, YG và HYBE để tổ chức hơn 50 buổi hòa nhạc và sự kiện tại Trung Quốc Đại Lục (Trung Quốc, Đài Loan, Hồng Kông, Ma Cao), Thái Lan, Singapore, Philippines, Malaysia,
+                                                        Indonesia, Việt Nam và Myanmar.<br>JS Media - Agency tổ chức các sự kiện truyền thông trong nước và quốc tế: fanmeeting, concert, ra mắt sản phẩm, họp báo, tài trợ sự kiện cộng đồng…JS Media Lên
+                                                        ý tưởng sáng tạo, sản xuất và biên tập các nội dung truyền thông.</p>
+                                                    <div class="cell2">
+                                                        <div class="btn-contact-organizer btn-contact-organizer-web">
+                                                            <span contact-button="contact-organizer">
+                                                                <i class="ello-mail-alt"></i>Contact the organizer
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="pop-up-message" class="modal fade dl-one" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content rounded color-6">
+                                            <button type="button" class="close dl-close hidden-xs" dismiss="modal"><span class="ello-cancel-2"></span></button>
+                                            <div class="modal-header dl-one-header">
+                                                <div class="modal-hl">
+                                                    <h4 class="modal-title font-bold">Contact the organizer</h4>
+                                                </div>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="dl-row mover-up-el">
+                                                    <div class="cs1-inp-group dl-input-groups">
+                                                        <div class="dl-input-row select-custom input-group">
+                                                            <span class="input-group-addon"><span class="ello-th-list color-c"></span></span>
+                                                            <select class="form-control padding-left-0" placeholder="Select topic" required="required">
+                                                                <option default=""value="">Select topic</option>
+                                                                <option value="1">Tickets</option>
+                                                                <option value="2">Business Opportunity</option>
+                                                                <option value="3">Event Content</option>
+                                                                <option value="4">Promotion Plan</option>
+                                                                <option value="5">Check-in</option>
+                                                                <option value="6">General Question</option>
+                                                            </select>
+                                                            <span class="caret"></span>
+                                                        </div>
+                                                        <div class="dl-input-row input-group">
+                                                            <span class="input-group-addon">
+                                                                <span class="ello-mail-alt color-c"></span>
+                                                            </span>
+                                                            <input class="form-control padding-left-0" type="email" placeholder="Your email address" name="email">
+                                                        </div>
+                                                        <div class="dl-input-row input-group content-area">
+                                                            <span class="input-group-addon">
+                                                                <span class="ello-doc-text-inv color-c"></span>
+                                                            </span>
+                                                            <textarea class="form-control padding-left-0" style="height: 120px" placeholder="Your message" required="required"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer padding-top-0">
+                                                <button class="send-message ladda-button btn tkb-bg-color rounded w-100 font-bold" id="send-message" data-error-mess="Please select question type, enter your message and check your email address." data-style="zoom-out" data-eventid="87821">
+                                                    <span class="ladda-label">Send message</span></button>
+                                            </div>
+                                        </div>
+                                        <div class="visible-xs clearfix underline text-center padding-20 color-white close-txt" data-dismiss="modal">Close</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-sm-12 col-md-8 pl-pr-0 hidden-md hidden-lg">
+                            <div class="banner-side-mb" style="display: block;">
+                                <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821" target="_blank" style="display: block" data-typebanner="Side Banner">
+                                    <img style="width: 100%" src="https://cdn02.ticketbox.vn/poster/a9154d19-2485-11ee-8e5e-0242ac110004" alt="banner side">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 pd-left-6 padding-right-0 info-box-wr">
+                            <div class="col-sm-12 pl-pr-0 hidden-xs hidden-sm">
+                                <div class="event-name-content animated" info-box="info-box" style="position: initial;">
+                                    <div class="bg-white event-name-wrap">
+                                        <h2 class="title">D&amp;E WORLD TOUR FANCON - [DElight PARTY] IN HO CHI MINH
+                                        </h2>
+                                        <div class="s1">
+                                            <div class="ev-txt">
+                                                <span class="block">06:00 PM - Until late</span></div></div>
+                                        <div class="s2">
+                                            <div class="ev-txt">
+                                                <span>Nhà thi đấu Phú Thọ</span>
+                                                <p class="grey-white-color">1 Lữ Gia, Phường 15, Quận 11, Thành phố HồChí Minh</p></div></div>
+                                        <a href=".booking" class="border-top-grey page-scroll pd-15 block">
+                                            <div class="ev-txt">
+                                                <span>From <strong>2,000,000 VND</strong></span></div></a>
+                                        <a data-style="zoom-out" class="ladda-button text-center white-color text-bold table-cell button-lg ver-middle btn-booking" buttontype="buy-ticket" href="#buyticket"><span class="ladda-label">Book now
+                                            </span><span class="ladda-spinner"></span></a>
+                                    </div>
+                                    <div class="btn-count">
+                                        <div id="shareBtn2" sharesocial="fbShare" class="col-sm-6 btn-wr">
+                                            <a class="btn-first fshare-button border-grey">Share to facebook</a>
+                                        </div>
+                                        <div class="dropdown col-sm-6 btn-wr ">
+                                            <a class="follow-event btn-last add-calendar-button border-grey" style="color: #2DC275">
+                                                <i class="ello-heart-empty" style="font-weight: bold"></i>Follow</a>
+                                            <a class="followed-event btn-last add-calendar-button border-grey"style="color: #2DC275; display: none">
+                                                <i class="ello-heart" style="font-weight: bold"></i>Followed </a>
+                                        </div>
+                                    </div>
+                                    <div class="banner-side" style="display: inline-block;">
+                                        <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821" target="_blank" style="display: block" data-typebanner="Side Banner">
+                                            <img style="width: 100%" src="https://cdn02.ticketbox.vn/poster/b3acaffb-2485-11ee-8e5e-0242ac110004" alt="picture error">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="similarEvent similarEvent-bottom" id="similarEvent">
+                        <div class="container-se section-container-se">
+                            <div class="header-similar-event">
+                                <span style="color: #219258; margin-left: -15px" class="ello-calendar"></span>
+                                <span style="color: #2A2D34; font-weight: bold">Recommended for you</span>
+                            </div>
+                            <div class="elist-container-se">
+                                <div class="row-se">
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/19/6595A8.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-saigon-myra-tran-87871" class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-saigon-myra-tran-87871" title="[MÂY SAIGON ] LIVESHOW MYRA TRẦN KM ĐẶC BIỆT: THU MINH &amp; KIỀU OANH"> [MÂY SAIGON ] LIVESHOW MYRA TRẦN KM ĐẶC BIỆT: THU MINH &amp; KIỀU OANH
+                                                            </a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div
+                                                            style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span>
+                                                                <strong class="price-green">400,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">August</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">20</div>
+                                                                            <div class="date-day">Sunday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>20.08.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/19/A6E809.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-saigon-quoc-thien-phuong-linh-87870" class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-saigon-quoc-thien-phuong-linh-87870" title="[MÂY SAIGON ] LIVESHOW QUỐC THIÊN &amp; PHƯƠNG LINH"> [MÂY SAIGON ] LIVESHOW QUỐC THIÊN &amp; PHƯƠNG LINH</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strong class="price-green">500,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">August</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6"> 26 </div>
+                                                                            <div class="date-day"> Saturday </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>26.08.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/19/83698F.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-saigon-the-best-of-ha-nhi-87869" class="class-a cover-img w-100"> </a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-saigon-the-best-of-ha-nhi-87869" title="[MÂY SAIGON ] LIVESHOW THE BEST OF HÀ NHI"> [MÂY SAIGON ] LIVESHOW THE BEST OF HÀ NHI
+                                                            </a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strong class="price-green">550,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">August</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">30</div>
+                                                                            <div class="date-day">Wednesday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>30.08.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/19/9CB4B7.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-saigon-bao-yen-2023-87868" class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title"> <a class="class-a" href="https://ticketbox.vn/event/may-saigon-bao-yen-2023-87868" title="[MÂY SAIGON ] LIVESHOW BẢO YẾN - DUY NHẤT 2023">[MÂY SAIGON ] LIVESHOW BẢO YẾN - DUY NHẤT 2023</a></div>
+                                                        <div class="card-right-block"></div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span>
+                                                                <strong class="price-green">650,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">August</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">11</div>
+                                                                            <div class="date-day">Friday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>11.08.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/19/05BC91.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-saigon-bang-kieu-lam-anh-87867" class="class-a cover-img w-100"> </a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-saigon-bang-kieu-lam-anh-87867" title="[MÂY SAIGON ] LIVESHOW BẰNG KIỀU KM: LAM ANH">[MÂY SAIGON ] LIVESHOW BẰNG KIỀU KM: LAM ANH</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strong
+                                                                    class="price-green">700,000 VND</strong></div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">August</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">17</div>
+                                                                            <div class="date-day">Thursday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>17.08.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp;Plays</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/19/A1ABAF.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">                                                
+                                                <a href="https://ticketbox.vn/event/may-saigon-nguyen-hung-luu-bich-87866"class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-saigon-nguyen-hung-luu-bich-87866" title="[MÂY SAIGON ] LIVESHOW NGUYỄN HƯNG &amp; LƯU BÍCH">[MÂY SAIGON ] LIVESHOW NGUYỄN HƯNG &amp; LƯU BÍCH</a>
+                                                        </div>
+                                                        <div class="card-right-block"></div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span><strong class="price-green">650,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">August</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">04</div>
+                                                                            <div class="date-day">Friday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>04.08.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp;Plays</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/18/06BBB0.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-lang-thang-liveshow-tang-phuc-truong-thao-nhi-87857" class="class-a cover-img w-100">
+                                                </a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-lang-thang-liveshow-tang-phuc-truong-thao-nhi-87857" title="[MÂY LANG THANG] LIVESHOW TĂNG PHÚC &amp; TRƯƠNG THẢO NHI">[MÂY LANG THANG] LIVESHOW TĂNG PHÚC &amp; TRƯƠNG THẢO NHI</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strong class="price-green">350,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">September</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">16
+                                                                            </div>
+                                                                            <div class="date-day">Saturday
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>16.09.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/18/AA2A4B.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-lang-thang-liveshow-phan-manh-quynh-tran-minh-dung-87855" class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-lang-thang-liveshow-phan-manh-quynh-tran-minh-dung-87855" title="[MÂY LANG THANG] LIVESHOW PHAN MẠNH QUỲNH KM TRẦN MINH DŨNG"> [MÂY LANG THANG] LIVESHOW PHAN MẠNH QUỲNH KM TRẦN MINH DŨNG</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strong class="price-green">350,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">September</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">09</div>
+                                                                            <div class="date-day">Saturday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg"
+                                                                        alt="calendar">
+                                                                    <span>09.09.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp;Plays</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/18/238BEE.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-lang-thang-liveshow-uyen-linh-87854" class="class-a cover-img w-100">
+                                                </a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-lang-thang-liveshow-uyen-linh-87854" title="[MÂY LANG THANG] LIVESHOW UYÊN LINH">[MÂY LANG THANG] LIVESHOW UYÊN LINH</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span>
+                                                                <strong class="price-green">450,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">September</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">23</div>
+                                                                            <div class="date-day">Saturday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>23.09.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative"
+                                                style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/13/23D46F.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-lang-thang-ha-noi-tuan-ngoc-luu-bich-87837" class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-lang-thang-ha-noi-tuan-ngoc-luu-bich-87837" title="[MÂY LANG THANG HÀ NỘI] LIVESHOW TUẤN NGỌC - LƯU BÍCH">[MÂY LANG THANG HÀ NỘI] LIVESHOW TUẤN NGỌC - LƯU BÍCH</a></div>
+                                                        <div class="card-right-block"></div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strong class="price-green">500,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">August</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">13</div>
+                                                                            <div class="date-day">Sunday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>13.08.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp;Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative"
+                                                style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/23/B8A309.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-lang-thang-can-tho-ung-hoang-phuc-pham-quynh-anh-87836"class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-lang-thang-can-tho-ung-hoang-phuc-pham-quynh-anh-87836" title="[MÂY LANG THANG CẦN THƠ] LIVESHOW ƯNG HOÀNG PHÚC &amp; PHẠM QUỲNH ANH">[MÂY LANG THANG CẦN THƠ] LIVESHOW ƯNG HOÀNG PHÚC &amp; PHẠM QUỲNH ANH</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strongclass="price-green">450,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">August</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">27</div>
+                                                                            <div class="date-day">Sunday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>27.08.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative"
+                                                style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/23/46B510.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a  href="https://ticketbox.vn/event/may-lang-thang-da-nang-trung-quan-87835"class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-lang-thang-da-nang-trung-quan-87835" title="[MÂY LANG THANG ĐÀ NẴNG] LIVESHOW TRUNG QUÂN IDOL">[MÂY LANG THANG ĐÀ NẴNG] LIVESHOW TRUNG QUÂN IDOL</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strong
+                                                                    class="price-green">450,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">July</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">28</div>
+                                                                            <div class="date-day">Friday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>28.07.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/10/AA7A83.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/hbso-87811" class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/hbso-87811" title="[HBSO] ROCK SYMPHONY VOL.3"> [HBSO] ROCK SYMPHONY VOL.3
+                                                            </a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strong
+                                                                    class="price-green">80,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                    <div class="event-date-contaniner">
+                                                                        <a href="https://ticketbox.vn/event/hbso-87811" title="[HBSO] ROCK SYMPHONY VOL.3" class="class-a relative">
+                                                                            <span class="date-month">
+                                                                                July</span>
+                                                                            <span class="date-detail"></span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar-multiple.svg" alt="calendar">
+                                                                    <span>July.2023<span>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                    <span class="tag-venues">
+                                                                        <span style="cursor: default" class="tag-venue smooth-trans label-default uppercase">
+                                                                            <span class="before-icon ello-location-1"></span>Ho Chi Minh
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div  class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/04/844A06.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a  href="https://ticketbox.vn/event/may-lang-thang-can-tho-myra-tran-87736" class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a  class="class-a" href="https://ticketbox.vn/event/may-lang-thang-can-tho-myra-tran-87736"title="[MÂY LANG THANG CẦN THƠ] LIVESHOW MYRA TRẦN">[MÂY LANG THANG CẦN THƠ] LIVESHOW MYRA TRẦN</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span><strong class="price-green">350,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">August</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">15</div>
+                                                                            <div class="date-day">Tuesday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>15.08.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp;Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/04/131FB8.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-lang-thang-liveshow-trinh-thang-binh-87734" class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-lang-thang-liveshow-trinh-thang-binh-87734" title="[MÂY LANG THANG] LIVESHOW TRỊNH THĂNG BÌNH"> [MÂY LANG THANG] LIVESHOW TRỊNH THĂNG BÌNH</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span>
+                                                                <strong class="price-green">450,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">September</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">01</div>
+                                                                            <div class="date-day">Friday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>01.09.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative" style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/12/59B88B.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-lang-thang-liveshow-ha-nhi-quoc-thien-87733"class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-lang-thang-liveshow-ha-nhi-quoc-thien-87733" title="[MÂY LANG THANG] LIVESHOW HÀ NHI  &amp; KHÁCH MỜI: QUỐC THIÊN">[MÂY LANG THANG] LIVESHOW HÀ NHI &amp; KHÁCH MỜI: QUỐC THIÊN</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span>
+                                                                <strong class="price-green">450,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">September</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">03</div>
+                                                                            <div class="date-day">Sunday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>03.09.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6-se col-md-4-se left  padding-left-right-0-m item-recommend d-none">
+                                        <div class="card">
+                                            <div class="card-cover relative"style="background-image: url(https://images.tkbcdn.com/1/780/300/Upload/eventcover/2023/07/04/14D66F.jpg?w=360&amp;maxheight=137&amp;mode=crop&amp;anchor=topcenter);">
+                                                <a href="https://ticketbox.vn/event/may-lang-thang-liveshow-tuan-ngoc-87732" class="class-a cover-img w-100"></a>
+                                            </div>
+                                            <div class="card-body relative">
+                                                <div class="padding-10 thumbnail-description">
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div class="event-title">
+                                                            <a class="class-a" href="https://ticketbox.vn/event/may-lang-thang-liveshow-tuan-ngoc-87732" title="[MÂY LANG THANG] LIVESHOW TUẤN NGỌC KM: THÚY ANH"> [MÂY LANG THANG] LIVESHOW TUẤN NGỌC KM: THÚY ANH</a>
+                                                        </div>
+                                                        <div class="card-right-block">
+                                                        </div>
+                                                    </div>
+                                                    <div class="table w-100 margin-bottom-0">
+                                                        <div style="display: flex; align-items: center; justify-content: space-between">
+                                                            <div class="event-price-se w-100">
+                                                                <span class="color-6">From</span> <strong class="price-green">450,000 VND</strong>
+                                                            </div>
+                                                            <div class="event-calendar-time">
+                                                                <div class="event-date">
+                                                                    <div class="relative">
+                                                                        <div class="date-month">September</div>
+                                                                        <div class="date-detail">
+                                                                            <div class="date-num color-6">02</div>
+                                                                            <div class="date-day">Saturday</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="date-with-calendar-icon">
+                                                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/calendar.svg" alt="calendar">
+                                                                    <span>02.09.2023</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-100">
+                                                            <div class="event-tags">
+                                                                <div class="etags-line etags-line-list">
+                                                                    <div class="tag-kinds inline-block">
+                                                                        <a href="/events?categories=8" class="class-a tag-kind">Live Music</a>
+                                                                        <a href="/events?categories=10" class="class-a tag-kind">Theater &amp; Plays</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="seemore-recommend-event" fdprocessedid="lo86wc">See more</button>
+                        </div>
+                    </div>
+                    <div class="container banner-bottom banner-bottom-dk pl-pr-0">
+                        <div class="col-md-6 col-12 banner-bottom-left" style="display: block;">
+                            <div class="wrap-link-banner">
+                                <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821" target="_blank" data-typebanner="Left Bottom Banner">
+                                    <img style="width: 100%" src="https://cdn02.ticketbox.vn/poster/e3e0f79b-2485-11ee-8e5e-0242ac110004" alt="banner bottom left"></a></div>
+                        </div>
+                        <div class="col-md-6 col-12 banner-bottom-right" style="display: block;">
+                            <div class="wrap-link-banner">
+                                <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821" target="_blank" data-typebanner="Right Bottom Banner">
+                                    <img style="width: 100%" src="https://cdn02.ticketbox.vn/poster/e3e0f79b-2485-11ee-8e5e-0242ac110004" alt="banner bottom right"></a></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="container banner-bottom-mb pl-pr-0">
+                        <div class="col-md-6 col-12 banner-bottom-left-mb" style="display: block;">
+                            <div class="wrap-link-banner">
+                                <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821" target="_blank" data-typebanner="Left Bottom Banner">
+                                    <img style="width: 100%" src="https://cdn02.ticketbox.vn/poster/d9b6fad9-2485-11ee-8e5e-0242ac110004" alt="banner bottom left"></a></div>
+                        </div>
+                        <div class="col-md-6 col-12 banner-bottom-right-mb" style="display: block;">
+                            <div class="wrap-link-banner">
+                                <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821" target="_blank" data-typebanner="Right Bottom Banner">
+                                    <img style="width: 100%" src="https://cdn02.ticketbox.vn/poster/d9b6fad9-2485-11ee-8e5e-0242ac110004" alt="banner bottom right">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <!-- Modal -->
+                <div class="modal" id="popup-confirm" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-body" style="padding: 0">
+                                <div style="margin-right:0; margin-left: 0; display: flex;">
+                                    <div style="background-color: #2DC275; text-align: center; flex: 35%; width: 35%;position: relative;">
+                                        <img style="position: absolute; top: 22%; height: 48px; width: 48px;left: 0;right: 0;margin-left: auto;margin-right: auto;" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/c-check-white.svg">
+                                        <p style="position: absolute; top: 33%; padding-left: 15%; padding-right: 15%; font-weight: bold;font-size: 32px;line-height: 125%; text-align: center; color: white; width: 100%"> SUCCESSFULLY CREATED</p>
+                                        <img style="position: absolute;bottom: 0;left: 0;right: 0;margin-left: auto;margin-right: auto;" class="drink-tea" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/drinking_tea.svg">
+                                    </div>
+                                    <div style="flex: 65%; width: 65%">
+                                        <div class="content" style="padding: 24px 24px 5px 24px">
+                                            <div class="text-top">
+                                                <p>Thank you for creating events on Ticketbox. Your event is waiting for approve</p>
+                                                <p style="padding-left: 24px">- For paid events that can be published on Ticketbox, we'll be contact you for consultation and contract signing.</p>
+                                                <p style="padding-left: 24px">- For free events, Ticketbox will review content, photos, etc...</p>
+                                                <p>Once approved, Ticketbox will send your event notification via the registered email.</p>
+                                            </div>
+                                        </div>
+                                        <div style="text-align: center; border-bottom: 1px solid #E6EBF5; margin-left: 24px; margin-right: 24px"></div>
+                                        <div class="content" style="padding: 15px 24px 0 24px">
+                                            <p>See your event link here:</p>
+                                            <div style="width: 100%;padding: 10px 10px 10px 15px; text-align:left; background: #F5F7FC">
+                                                <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821" style="margin-bottom: 0px; font-weight: bold">https:/<wbr>/<wbr>ticketbox.vn/<wbr>event/<wbr>d-e-world-tour-fancon-ho-chi-minh-87821</a>
+                                            </div>
+                                        </div>
+                                        <div style="text-align: center; border-bottom: 1px solid #E6EBF5; margin-left: 24px; margin-right: 24px; padding-top: 20px"></div>
+                                        <div class="content hidden-xs" style="padding: 24px 24px 5px 24px; display: flex">
+                                            <div style="flex: 15%">
+                                                <a href="https://ticketbox.vn/app/mobile-event-manager"><img src="https://static.tkbcdn.com/site/global/content-v2/img/popup/logo_black.svg"></a>
+                                            </div>
+                                            <div style="flex: 85%; margin-left: 8px"><p>Download <b>TicketBox Event Manager</b> app to manage accessed customer booking information</p>
+                                                <p><img style="padding-right: 6px" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/c-check.svg">Quickly scan e-tickets with QR code &amp; barcode using your mobile device or entering number</p>
+                                                <p><img style="padding-right: 6px" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/c-check.svg">Monitor and access your upcoming and past events</p>
+                                                <p><img style="padding-right: 6px" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/c-check.svg">Track ticket sales through live sales reports</p>
+                                                <p><img style="padding-right: 6px" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/c-check.svg">Easily view customer’s order details and check-ins</p>
+                                            </div>
+                                            <div style="flex: 20%; text-align: right">
+                                                <a href="https://apps.apple.com/vn/app/ticketbox-event-manager/id986830728?l=vi"><img src="https://static.tkbcdn.com/site/global/content-v2/img/popup/appstore.svg"></a>
+                                                <a href="https://play.google.com/store/apps/details?id=ticketbox.eventmanager&amp;hl=en"><img style="padding-top: 17px" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/playstore.svg"></a>
+                                            </div>
+                                        </div>
+                                        <div class="content hidden-sm hidden-md hidden-lg" style="padding: 17px 24px 5px 24px;">
+                                            <p> <a href="https://ticketbox.vn/app/mobile-event-manager"><img src="https://static.tkbcdn.com/site/global/content-v2/img/popup/logo_black.svg" style="height: 50px;width: 50px;display: grid;"></a>Download <b>TicketBox Event Manager</b> app to manage accessed customer booking information</p>
+                                            <p><img style="padding-right: 6px" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/c-check.svg">Quickly scan e-tickets with QR code &amp; barcode using your mobile device or entering number</p>
+                                            <p><img style="padding-right: 6px" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/c-check.svg">Monitor and access your upcoming and past events</p>
+                                            <p><img style="padding-right: 6px" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/c-check.svg">Track ticket sales through live sales reports</p>
+                                            <p><img style="padding-right: 6px" src="https://static.tkbcdn.com/site/global/content-v2/img/popup/c-check.svg">Easily view customer’s order details and check-ins</p>
+                                            <a href="https://apps.apple.com/vn/app/ticketbox-event-manager/id986830728?l=vi">
+                                                <img src="https://static.tkbcdn.com/site/global/content-v2/img/popup/appstore.svg"></a>
+                                            <a href="https://play.google.com/store/apps/details?id=ticketbox.eventmanager&amp;hl=en">
+                                                <img src="https://static.tkbcdn.com/site/global/content-v2/img/popup/playstore.svg"></a>
+                                        </div>
+                                        <div
+                                            style="text-align: center; border-bottom: 1px solid #E6EBF5; margin-left: 24px; margin-right: 24px">
+                                        </div>
+                                        <div style="margin-bottom: 24px">
+                                            <a href="https://ticketbox.vn/event/d-e-world-tour-fancon-ho-chi-minh-87821"
+                                                style="display: block; padding-top: 20px; text-align: center">
+                                                <div
+                                                    style="width: 92%; background: #2DC275; margin: auto; outline: none; border: none; padding: 8px 20px; border-radius: 20px; font-size: 16px; font-weight: bold; color: white; cursor: pointer;">See Your Event
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <h3 class="mid" id="gotobuyticket">THÔNG TIN VÉ & ĐẶT VÉ</h3>
+        <div class="ticket">
+            <div class="mid">
+              <table>
+                <td style="padding-right: 100px;">
+                  <div class="classic">
+                    <b style="padding-left: 200px;">VÉ THƯỜNG</b>
+                    <img style="width:100px; margin-left: 180px; " src="./images/ticket_classic.png" alt="picture error!">
+                    <p>Giá vé: 7.999.000 VNĐ</p>
+                    <p>Khuyến mãi: 7.890.000 VNĐ</p>
+                    <p><i style="font-size: 18px;">(Điều kiện: mua với số lượng trên 5 vé, chỉ áp dụng cho 9.5 người đầu tiên)</i></p>
+                    <p>Quyền lợi vé thường:</p>
+                    <ul style="text-align: left; margin-left: 10px;">
+                        <li>Được vào sân xem trình diễn trực tiếp.</li>
+                        <li>Được đứng xem trình diễn</li>
+                        <li>Có cơ hội trúng 1 giải may mắn của concert</li>
+                        <li><b>SỐC: </b>Được trông giữ xe mất phí</li>
+                    </ul>
+                  <p style="padding-left: 200px;">
+                    <a href="#buyticket">
+                    <button class="buy_ticket_classic" style="font-size: 20px;">Số lượng
+                    <div class="buttons_added_class">
+                    <input class="minus is-form" type="button" value="-">
+                    <input aria-label="quantity" class="input-qty" max="1200" min="1" name="number_ticket_class" type="number" value="1" style="text-align: center;">
+                    <input class="plus is-form" type="button" value="+">
+                  </div>
+                  <b>Buy Tickets</b></button></p>
+                </a>
+                </div>
+                </td>
+                <td id="td_2"style="padding-left: 100px;" >
+                  <div class="VIP">
+                    <b style="padding-left: 200px;">VÉ VIP</b>
+                    <img style="width:100px; margin-left: 180px; " src="./images/ticket_vip.png" alt="picture error!">
+                    <p>Giá vé: 12.000.000 VNĐ</p>
+                    <p>Khuyến mãi: 11.850.000 VNĐ</p>
+                    <p><i style="font-size: 18px;">(Điều kiện: mua với số lượng trên 5 vé, chỉ áp dụng cho vé thường)</i></p>
+                    <p>Quyền lợi vé VIP:</p>
+                    <ul style="text-align: left; margin-left: 10px;">
+                      <li>Vé vào cửa đẹp hơn, xịn xò hơn và đắt hơn.</li>
+                      <li>Được nói chuyện và chụp hình cùng idol</li>
+                      <li>Được bố trí ghế ngồi, nước uống và các dịch vụ khác</li>
+                  </ul>
+                  <i style="font-size: 18px; padding-left: 50px;">*( Và bao gồm tất cả các quyền lợi của vé thường)</i>
+                  <p style="padding-left: 200px;">
+                    <a href="#buyticket">
+                    <button class="buy_ticket_VIP" style="font-size: 20px;">Số lượng
+                    <div class="buttons_added_VIP">
+                      <input class="minus is-form" type="button" value="-">
+                      <input aria-label="quantity" class="input-qty" max="1200" min="1" name="number_ticket_VIP" type="number" value="1" style="text-align: center;">
+                      <input class="plus is-form" type="button" value="+">
+                    </div>
+                    <b>Buy Tickets</b></button></p>
+                  </a>
+                  </div>
+                </td>
+              </table>      
+            </div>
+            <h2 id="buyticket" style="text-align: center;">Đặt vé</h2>
+            <p class="mid"><i style="font-size: small; color: #767676 ">Vui lòng hoàn thành các thông tin sau để đặt vé</i></p>
+            <div style="padding-left: 500px; padding-right: 500px;">
+              <label>Họ và tên:
+              <input type="text" name="fullname" placeholder="Họ và tên" style="height: 20px; width: 650px;" />
+              </label>
+              <br/>
+              <label>Số điện thoại:</label>
+              <input type="number" name="phonenumber" placeholder="Số điện thoại" style="height: 20px; width: 625px;" />
+              <br/>
+              <label>Gmail:</label>
+              <input type="email" name="gmail" placeholder="...@gmail.com" style="height: 20px; width: 675px;" />
+              <br/>
+              <br/>
+                <input type="radio" name="classify" value="Classic" style="margin-left: 220px;"/>Vé thường
+                <input type="radio" name="classify" value="VIP" style="display:inline; margin-left: 200px;"/>Vé V.I.P
+              <br/>
+              <div class="mid">
+                <input type="submit" value="Hoàn thành"  id="send" style="font-size: 20px; background-color: rgb(34, 247, 6);"/>
+              </div>
+            </div>
+    </section>
+    <footer class="footer fwrapper">
+        <section class="ft-body clearfix" style="background: #393F4E">
+            <div class="col-lg-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 fbody-block">
+                            <!-- <br> -->
+                            <div class="fbody-head">Hotline</div>
+                            <div class="fbody-content">
+                                <ul class="our-links">
+                                    <li class="ft-link-desc">
+                                        <span class="ello-phone"></span>
+                                        <a class="ft-hotline" href="tel:+8419006408">Monday - Friday (8:30 AM - 6:30
+                                            PM)</a>
+                                        <br>
+                                        <strong style="font-size: 16px;"
+                                            class="tkb-color hotline">1900.6408</strong>
+                                        <br>
+                                    </li>
+                                </ul>
+                            </div>
+                            <br>
+                            <div class="fbody-head">Email</div>
+                            <div class="ft-link-desc"><span class="ello-mail-alt"></span> support@ticketbox.vn</div>
+                            <br>
+                            <div class="fbody-head">Office</div>
+                            <div class="fbody-content">
+                                <div class="ft-link-desc"><span class="ello-location"></span>52 Ut Tich, Ward 4, Tan Binh District, HCMC</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 fbody-block">
+                            <div class="fbody-head">For Organizer</div>
+                            <div class="ft-link-desc">
+                                <a class="light" href="/organizer-about">Work with us</a>
+                            </div>
+                            <br>
+                            <div class="fbody-head">Our Company</div>
+                            <div class="fbody-content">
+                                <ul class="our-links our-links-custom">
+                                    <li>
+                                        <a class="light ft-link-desc" href="/about-us" target="_blank" title="About us">About us</a>
+                                    </li>
+                                    <li>
+                                        <a class="light ft-link-desc" href="/term-and-policy" target="_blank" title="Terms &amp; Conditions">Terms &amp; Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a class="light ft-link-desc" href="/operational-regulations" target="_blank" title="E-commerce marketplace regulation">E-commerce marketplace regulation</a>
+                                    </li>
+                                    <li>
+                                        <a class="light ft-link-desc" href="/dispute-settlement-policy" target="_blank" title="Dispute Resolution Policy">Dispute Resolution Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="visible-sm-block" style="clear:both"></div>
+                        <div class="col-sm-6 col-md-4 fbody-block">
+                            <div class="loader"></div>
+                            <div class="fbody-head">For Customer</div>
+                            <div class="ft-link-desc">
+                                <a href="/booking-instruction">Booking instruction</a>
+                            </div>
+                            <br>
+                            <div class="fbody-head">Help center</div>
+                            <div class="ft-link-desc">
+                                <a href="/help-center">Frequently asked questions</a>
+                            </div>
+                            <br>
+                            <div class="fbody-head">Subscribe to our hottest events</div>
+                            <form name="frmSubscribe" class="fbody-content" onsubmit="return false;"
+                                novalidate="novalidate">
+                                <div data-err="alerter" class="dl-er-message hide">
+                                    <div class="alert alert-info" role="alert">
+                                        <span data-err="message">Start time must be less than end time</span>
+                                    </div>
+                                </div>
+                                <div class="btn-subscribe rounded input-group overflow-hidden">
+                                    <div class="i-email input-group-addon"><span class="ello-mail-alt"
+                                            style="color: #2DC275"></span></div>
+                                    <div class="relative form-control subscribe-input">
+                                        <input class="color-9" type="text" name="email" placeholder="Your email"
+                                            tabindex="200" fdprocessedid="zqmqun">
+                                    </div>
+                                    <div class="i-go submit-email input-group-addon btn-submit-subscriber"
+                                        tabindex="201"><span class="ladda-label">
+                                            <button class="ello-paper-plane" fdprocessedid="ow6dvj"></button>
+                                            <span class="loader-submit-email d-none"></span>
+                                        </span><span class="ladda-spinner"></span></div>
+                                </div>
+                                <div class="error-email" style="margin-top: 3px; font-size: 11px; color: #eb1213;">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 100%;height: 1px;background-color: rgba(255,255,255,0.05);margin-bottom: 30px;">
+                </div>
+                <div class="container">
+                    <div class="row" style="margin-bottom: -30px;">
+                        <div class="col-sm-6 col-md-4 fbody-block">
+                            <div class="fbody-head">Ticketbox App</div>
+                            <div class="clearfix" style="margin: 0px -5px;"></div>
+                            <div style="margin-top: 12px;">
+                                <a href="https://play.google.com/store/apps/details?id=ticketbox.event.user&amp;referrer=utm_source%3Dtkbvn-website%26utm_medium%3Dreferral%26utm_campaign%3Dapp-landing-page"
+                                    target="_blank">
+                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/tkbCHPlay.svg">
+                                </a>
+                            </div>
+                            <div style="margin-top: 12px;">
+                                <a href="https://click.google-analytics.com/redirect?tid=UA-44294974-11&amp;url=https%3A%2F%2Fitunes.apple.com%2Fapp%2Fapple-store%2Fid1041900498%3Fpt%3D117770847%26ct%3Dtkbvn-web-app-landing-page%26mt%3D8&amp;aid=1041900498&amp;idfa=%{idfa}&amp;cs=tkbvn-website&amp;cm=referral&amp;cn=app-landing-page"
+                                    target="_blank">
+                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/tkbAppStore.svg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 fbody-block">
+                            <div class="fbody-head">Check-in app for organizer</div>
+                            <div class="clearfix" style="margin: 0px -5px;"></div>
+                            <div style="margin-top: 12px;">
+                                <a href="/app/mobile-event-manager" target="_blank">
+                                    <img src="https://static.tkbcdn.com/site/global/content-v2/img/checkinApp.svg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 fbody-block">
+                            <div class="fbody-head">Follow us</div>
+                            <div class="fbody-content">
+                                <div class="social-links w-100" style="margin-top: 12px">
+                                    <a href="//www.facebook.com/ticketbox.vn" target="_blank"
+                                        title="ticketbox.vn facebook" style="padding-right: 16px">
+                                        <img
+                                            src="https://static.tkbcdn.com/site/global/content-v2/img/facebook.svg">
+                                    </a>
+                                    <a href="https://www.instagram.com/ticketbox_vn" target="_blank"
+                                        title="ticketbox.vn instagram">
+                                        <img
+                                            src="https://static.tkbcdn.com/site/global/content-v2/img/instagram.svg">
+                                    </a>
+                                </div>
+                                <!-- languages -->
+                                <div class="ft-langs middle" style="margin-top: 15px">
+                                    <div class="fbody-head">Language</div>
+                                    <a data-select-language=""
+                                        href=""
+                                        class="lang_vi"></a>
+                                    <a data-select-language=""
+                                        href=""
+                                        class="lang_en"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 fbody-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ft-footer clearfix" style="background: #1D1D1D">
+            <div class="container" style="padding: 0">
+                <div class="col-sm-5 ftft-block ftft-tkb">
+                    <div class="table valign-top margin-bottom-0">
+                        <div class="ft-img">
+                            <img
+                                src="https://static.tkbcdn.com/site/global/content-v2/img/ticketbox-logo-100.png?v2">
+                        </div>
+                        <div class="ftft-left">
+                            Vietnam's premier ticketing platform for events <br> Ticketbox Co. Ltd. © 2016
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-7 ftft-block ftft-license">
+                    <div class="table valign-top margin-bottom-0">
+                        <div class="ftft-right hidden-xs float-none" style="text-align: left">Ticketbox Co., Ltd<br>Legal representative: Tran Ngoc Thai Son<br>
+                            Address: 3rd floor, Tower A, Viettel Building, 285 Cach Mang Thang Tam, Ward 12,
+                            District 10, HCMC.
+                            <br>
+                            Hotline: 1900.6408 - Email: support@ticketbox.vn
+                            <br>
+                            Business registration certificate number: 0313605444, first issued on January 7, 2016 by
+                            the Department of Planning and Investment of Ho Chi Minh City
+                        </div>
+                        <div class="ftft-left ftft-certification float-none">
+                            <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=23188" target="_blank">
+                                <img style="height: 40px;" alt="ticketbox" title="ticketbox"
+                                    src="https://static.tkbcdn.com/site/global/content-v2/img/license1.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="popup-result-submit-email" class="modal fade in modal-loading" role="dialog" style="color: #000000">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title text-center modal-email-subscription-title"></h2>
+                    </div>
+                    <div class="modal-body text-center modal-email-subscription-description" style="font-size: 14px">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn tkb-bg-color btn-rounded center-block ladda-button btn-close" data-style="zoom-out">
+                            <span class="ladda-label ng-binding">OK</span>
+                            <span class="ladda-spinner"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img id="goto_login" src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit">Login</button>
+    <p class="mid">or write more for signup account</p>
+    <label for="uname"><b>Full name</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="uname"><b>Age</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit">Signup</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+    <script src="../data/huy_1.js"></script>
+</body>
+</html>
